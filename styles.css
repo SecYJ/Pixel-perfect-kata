@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+}
+
+body,
+h2, p {
+    margin: 0;
+}
+
+.container {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+    gap: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.article {
+    display: flex;
+    gap: 1.25rem;
+}
+
+.article:first-child {
+    margin-bottom: 1.5rem;
+}
+
+.title {
+    font-size: 1.25rem;
+    line-height: 1.2;
+}
+
+.footer {
+    padding-block: 3rem;
+    text-align: center;
+}
